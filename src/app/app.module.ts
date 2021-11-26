@@ -12,6 +12,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ProfileUserComponent } from './components/profile/profile-user/profile-user.component';
 import { ListMessageComponent } from './components/profile/list-message/list-message.component';
 import { FormAddTechnosComponent } from './components/profile/form-add-technos/form-add-technos.component';
+import { HomeComponent } from './components/home/home/home.component';
+import { HeaderHomeComponent } from './components/home/header-home/header-home.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { FormAddTechnosComponent } from './components/profile/form-add-technos/f
     ContactComponent,
     ProfileUserComponent,
     ListMessageComponent,
-    FormAddTechnosComponent
+    FormAddTechnosComponent,
+    HomeComponent,
+    HeaderHomeComponent
   ],
   imports: [
     BrowserModule,
